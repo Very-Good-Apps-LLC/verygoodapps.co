@@ -53,7 +53,7 @@ Deploy the build to GitHub Pages:
 
    This command runs a script that the `gh-pages` plugin uses to push the contents of the `dist/` directory to the `gh-pages` branch of your GitHub repository.
 
-After running the deploy command, your application will be available at `https://your-username.github.io/your-repo-name/`.
+After running the deploy command, your application will be available at `https://verygoodapps.co`.
 
 ## Common Issues and Troubleshooting
 
