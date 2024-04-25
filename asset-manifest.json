@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/verygoodapps.com/static/css/main.9a54f6c8.css",
+    "main.js": "/verygoodapps.com/static/js/main.0cb64072.js",
+    "static/js/453.1e66ed60.chunk.js": "/verygoodapps.com/static/js/453.1e66ed60.chunk.js",
+    "static/media/character.png": "/verygoodapps.com/static/media/character.9bc05ffaeb5622b5e3ae.png",
+    "static/media/sky-background.jpg": "/verygoodapps.com/static/media/sky-background.19da84b305c9fd36f183.jpg",
+    "static/media/google-play-badge.png": "/verygoodapps.com/static/media/google-play-badge.f3b61a5b415666a52486.png",
+    "static/media/app-store.svg": "/verygoodapps.com/static/media/app-store.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "index.html": "/verygoodapps.com/index.html",
+    "main.9a54f6c8.css.map": "/verygoodapps.com/static/css/main.9a54f6c8.css.map",
+    "main.0cb64072.js.map": "/verygoodapps.com/static/js/main.0cb64072.js.map",
+    "453.1e66ed60.chunk.js.map": "/verygoodapps.com/static/js/453.1e66ed60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a54f6c8.css",
+    "static/js/main.0cb64072.js"
+  ]
+}
