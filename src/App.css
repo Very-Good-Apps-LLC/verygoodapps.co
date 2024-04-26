@@ -34,8 +34,15 @@
     margin: 3.8rem auto;
 }
 
-.play-store-link, .app-store-link {
+.store-link {
     height: 52px;
+}
+
+.coming-soon {
+    text-align:center;
+    margin: 2rem auto;
+    color: white;
+    font-style: italic;
 }
 
 .character {
@@ -55,14 +62,21 @@
     background-color: #1F8091;
     position: absolute;
     bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 24px;
+    gap: 10px;
 }
 
 .footer a {
     color: white;
     text-decoration: none;
-    padding:24px 10px;
 }
