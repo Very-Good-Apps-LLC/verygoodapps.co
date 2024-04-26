@@ -1,50 +1,68 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
-
-body {
-  color: #fff;
-  font-family: "Roboto Condensed", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-position: top top;
-  background-size: cover;
-  margin: 0;
-}
-
-.App {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  background: rgb(49, 49, 177);
-  background: linear-gradient(
-    0deg,
-    rgba(49, 49, 177, 1) 0%,
-    rgba(49, 49, 177, 1) 50%,
-    rgba(49, 49, 177, 0.6) 100%
-  );
-}
-
 .container {
-  width: 100%;
-  margin: 15% auto;
-}
-.col-4 {
-  width: 25%;
-  float: left;
-}
-
-h1 {
-  font-size: 38px;
-  text-transform: uppercase;
-  line-height: 1;
+    background: linear-gradient(to bottom, rgba(18, 120, 141, .75) 15%, rgba(112,173,168, 0) 90%), url('./sky-background.jpg');
+    background-size: cover;
+    background-color: #10788D;
+    height: 100vh;
+    position:relative;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: 1100px;
-  }
-  h1 {
-    font-size: 58px;
-  }
+.hero {
+    text-align:center;
+    padding-top:2rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-family: "AbeeZee", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 4%;
+    color: white;
+}
+
+.hero p {
+    color:white;
+    font-size: 1.4rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.button-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3.8rem auto;
+}
+
+.play-store-link, .app-store-link {
+    height: 52px;
+}
+
+.character {
+    position:absolute;
+    left:0;
+    bottom:0;
+    margin: 0 auto;
+    z-index:1 !important;
+}
+
+.character img {
+    width: 100vw;
+}
+
+.footer {
+    z-index:3 !important;
+    background-color: #1F8091;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding:24px 10px;
 }

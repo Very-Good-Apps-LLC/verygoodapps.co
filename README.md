@@ -1,92 +1,70 @@
-# Simple Vite.js React App
+# Getting Started with Create React App
 
-Welcome to your new Vite.js React app, which is ready to be deployed on GitHub Pages! This README will guide you through using this repository and deploying your web application so you can share it with the world.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prerequisites
+## Available Scripts
 
-Before you start, make sure you have the following installed:
-- [Node.js](https://nodejs.org/): This is necessary to run the project and includes npm (Node Package Manager) which we'll use to manage the project's dependencies.
-- [Git](https://git-scm.com/): Version control system to manage the source code of your application.
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-First, clone this repository to get a local copy on your computer. Open your terminal, and run:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```bash
-git clone git@github.com:Very-Good-Apps-LLC/verygoodapps.co.git
-cd verygoodapps.co
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Then, install the dependencies by running:
+### `npm test`
 
-```bash
-npm install
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This command fetches all the necessary packages required to run and build your React application.
+### `npm run build`
 
-## Running Locally
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To start the development server and view your application in the browser, run:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-npm run dev
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-This command starts a local development server provided by Vite.js and opens up your browser to `http://localhost:5173` where your app is running. The server provides hot reloading, so changes you make in the code will automatically refresh the page.
+### `npm run eject`
 
-## Structure of the Repository
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- `src/`: This directory contains all your React components and your main application logic.
-- `index.html`: The entry point for your web application.
-- `vite.config.js`: Configuration file for Vite.js, which includes settings for the development and production builds.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Deploying to GitHub Pages
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To deploy your app to GitHub Pages, you'll use the `gh-pages` plugin, which automates the process of publishing the files generated during the build to the `gh-pages` branch of your repository.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Deploy the build to GitHub Pages:
+## Learn More
 
-   ```bash
-   npm run deploy
-   ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-   This command runs a script that the `gh-pages` plugin uses to push the contents of the `dist/` directory to the `gh-pages` branch of your GitHub repository.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-After running the deploy command, your application will be available at `https://verygoodapps.co`.
+### Code Splitting
 
-## Common Issues and Troubleshooting
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-As you work with your Vite.js React application, you might encounter some issues, especially when it comes to deployment. Here are a few common problems and how to resolve them:
+### Analyzing the Bundle Size
 
-### 1. **Page Not Found on GitHub Pages**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-**Problem:** After deploying, you see a "404 Page Not Found" error when you visit your GitHub Pages URL.
+### Making a Progressive Web App
 
-**Solution:** This usually happens if the `base` configuration in `vite.config.js` is not set correctly. Ensure that it matches the repository name with a leading slash and trailing slash. For example:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```javascript
-export default defineConfig({
-  base: '/your-repo-name/',
-  plugins: [react()]
-})
-```
+### Advanced Configuration
 
-### 2. **Changes Not Reflecting After Deployment**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**Problem:** You've deployed your application, but the changes are not visible on GitHub Pages.
+### Deployment
 
-**Solution:** This might be due to browser caching or a delay in GitHub Pages updating. First, try clearing your browser's cache and reloading the page. If that doesn’t work, ensure that the `gh-pages` branch in your repository contains the latest build.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### 3. **Build or Deployment Fails**
+### `npm run build` fails to minify
 
-**Problem:** The `npm run deploy` command fails with an error message in the terminal.
-
-**Solution:** Check the error message provided in the terminal for clues. Common issues include:
-
-- **Dependency issues:** Run `npm install` to make sure all dependencies are correctly installed.
-- **Configuration errors:** Verify that there are no syntax errors in `vite.config.js`.
-
-## Need Help?
-
-If you encounter any issues or have questions about the process, consider looking through the [Vite.js documentation](https://vitejs.dev/guide/) and the [React documentation](https://reactjs.org/docs/getting-started.html).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

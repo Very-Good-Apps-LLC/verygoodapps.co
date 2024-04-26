@@ -1,0 +1,36 @@
+.modal-container {
+    height: 97vh;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    border-radius: 20px 20px 0 0;
+}
+
+.modal-header {
+    background: #ccc;
+    color: black;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.modal-header h2 {
+    margin-left: 12px;
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    padding-right: 18px;
+}
+
+.modal-content-section{
+    height: 100%;
+    padding: 12px;
+    overflow-y: scroll;
+}
+
