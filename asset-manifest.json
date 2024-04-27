@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/verygoodapps.co/static/css/main.ff32e2c5.css",
-    "main.js": "/verygoodapps.co/static/js/main.d2c8979e.js",
-    "static/js/453.b2491864.chunk.js": "/verygoodapps.co/static/js/453.b2491864.chunk.js",
-    "static/media/character.png": "/verygoodapps.co/static/media/character.9bc05ffaeb5622b5e3ae.png",
-    "static/media/sky-background.jpg": "/verygoodapps.co/static/media/sky-background.19da84b305c9fd36f183.jpg",
-    "static/media/google-play-badge.png": "/verygoodapps.co/static/media/google-play-badge.f3b61a5b415666a52486.png",
-    "static/media/app-store.svg": "/verygoodapps.co/static/media/app-store.8c4986ee4828b47d16f5cd694ef065f2.svg",
-    "index.html": "/verygoodapps.co/index.html",
-    "main.ff32e2c5.css.map": "/verygoodapps.co/static/css/main.ff32e2c5.css.map",
-    "main.d2c8979e.js.map": "/verygoodapps.co/static/js/main.d2c8979e.js.map",
-    "453.b2491864.chunk.js.map": "/verygoodapps.co/static/js/453.b2491864.chunk.js.map"
+    "main.css": "/static/css/main.3da6c346.css",
+    "main.js": "/static/js/main.9f277558.js",
+    "static/js/453.b2491864.chunk.js": "/static/js/453.b2491864.chunk.js",
+    "static/media/character.png": "/static/media/character.9bc05ffaeb5622b5e3ae.png",
+    "static/media/sky-background.jpg": "/static/media/sky-background.19da84b305c9fd36f183.jpg",
+    "static/media/google-play-badge.png": "/static/media/google-play-badge.f3b61a5b415666a52486.png",
+    "static/media/app-store.svg": "/static/media/app-store.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "index.html": "/index.html",
+    "main.3da6c346.css.map": "/static/css/main.3da6c346.css.map",
+    "main.9f277558.js.map": "/static/js/main.9f277558.js.map",
+    "453.b2491864.chunk.js.map": "/static/js/453.b2491864.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff32e2c5.css",
-    "static/js/main.d2c8979e.js"
+    "static/css/main.3da6c346.css",
+    "static/js/main.9f277558.js"
   ]
 }
