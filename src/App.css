@@ -15,8 +15,8 @@
 
 .hero h1 {
     font-family: "AbeeZee", sans-serif;
-    font-size: 3rem;
-    /* letter-spacing: 4%; */
+    font-size: 4rem;
+    letter-spacing: 4%;
     color: white;
 }
 
@@ -55,13 +55,6 @@
 
 .character img {
     width: 100vw;
-}
-
-@media screen and (min-width: 480px) {
-    .character img {
-        max-height: 25vh;
-        width: auto;
-    }
 }
 
 .footer {
