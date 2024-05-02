@@ -1,0 +1,20 @@
+.text-container {
+    color: white;
+}
+
+.inner-text-container {
+    padding: 24px;
+}
+
+.inner-text-container button {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 16px;
+}
+
+.inner-text-container button a {
+    text-decoration: none;
+    font-size: 1rem;
+}
