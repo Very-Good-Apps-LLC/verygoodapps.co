@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Home } from './Pages/Home'
-import { PrivacyPolicy } from './Pages/PrivacyPolicy'
+import Home from './Pages/Home'
+import PrivacyPolicy from './Pages/PrivacyPolicy'
 
 function App() {
   const router = createBrowserRouter([
