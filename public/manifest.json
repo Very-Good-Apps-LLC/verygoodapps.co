@@ -1,6 +1,6 @@
 {
-  "short_name": "StorySprout",
-  "name": "A website for StorySprout",
+  "short_name": "Ruby: Bedtime Story Creator",
+  "name": "A website for Ruby: Bedtime Story Creator",
   "icons": [
     {
       "src": "favicon.ico",

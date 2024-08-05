@@ -1,3 +1,3 @@
-# StorySprout
+# Ruby: Bedtime Story Creator
 
-A corporate website for the app StorySprout.
+A corporate website for the app Ruby: Bedtime Story Creator.
