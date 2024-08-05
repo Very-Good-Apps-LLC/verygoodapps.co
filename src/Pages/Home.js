@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className='container'>
             <div className='hero'>
-                <h1>StorySprout</h1>
+                <h1>Ruby: Bedtime Story Creator</h1>
                 <p>Never-ending stories for kids and their big people.</p>
             </div>
 
