@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+coverage
+.netlify
+netlify-preview/site
+package-lock.json
+public/fonts
