@@ -53,8 +53,6 @@ Preview the custom error page at `/404.html`. GitHub Pages automatically serves 
 
 ## Deployment
 
-The repository’s **Settings → Pages → Source** must be **GitHub Actions**, with `verygoodapps.co` configured as the custom domain and HTTPS enabled. Keep `public/CNAME` and `public/.nojekyll` in the build.
-
 1. Push reviewed changes to `main`.
 2. Confirm the **Check website** workflow passes.
 3. Open **Actions → Deploy website → Run workflow** and select `main`.
