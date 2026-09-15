@@ -11,11 +11,10 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4187 --strictPort",
     "lint": "eslint src tests vite.config.js eslint.config.js",
-    "test": "vitest run && node --test netlify-preview/test/*.test.mjs",
+    "test": "vitest run",
     "test:watch": "vitest",
     "check": "npm run lint && npm test && npm run build && node scripts/check-build.mjs",
-    "format": "prettier --write src tests scripts *.html privacy *.js *.json .github README.md docs netlify-preview/prepare.mjs netlify-preview/README.md",
-    "prepare:review": "npm run build && node netlify-preview/prepare.mjs"
+    "format": "prettier --write src tests scripts *.html privacy *.js *.json .github README.md docs"
   },
   "dependencies": {
     "react": "19.3.0",

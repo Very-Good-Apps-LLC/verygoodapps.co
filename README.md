@@ -16,7 +16,7 @@ npm run dev
 Open http://localhost:4187. The dev server is also available to devices on the same network at your computer’s LAN address, port 4187. Run only one dev/preview server on that port.
 
 ```sh
-npm run check       # lint, interaction tests, review-gate tests, production build checks
+npm run check       # lint, interaction tests, production build checks
 npm run build       # produces dist/
 npm run preview     # serves the production build locally
 npm run format     # formats source and documentation
@@ -65,10 +65,6 @@ The workflow installs the locked dependencies, runs `npm run check`, uploads `di
 Before the one-time switch, the live site continues to publish the existing `gh-pages` branch. Neither local builds nor these local workflow files change the live site. There is deliberately no local `npm run deploy` command that pushes generated files.
 
 For rollback after a release, revert the source change on `main`, push the revert, and run **Deploy website** again. Preserve `public/CNAME`.
-
-## Private review on Netlify
-
-The existing password-protected Netlify review site is separate from production. See `netlify-preview/README.md`. Its password lives in Netlify’s server environment; no secret belongs in this repository or Vite client environment variables.
 
 ## Design backup
 

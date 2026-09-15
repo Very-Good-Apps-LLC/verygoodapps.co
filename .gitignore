@@ -2,8 +2,6 @@ node_modules/
 dist/
 build/
 coverage/
-.netlify/
-netlify-preview/site/
 .env
 .env.*
 !.env.example

@@ -1,8 +1,0 @@
-{
-  "name": "very-good-apps-private-review",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test test/review-gate.test.mjs"
-  }
-}
