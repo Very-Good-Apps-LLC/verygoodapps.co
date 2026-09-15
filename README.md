@@ -53,11 +53,35 @@ Preview the custom error page at `/404.html`. GitHub Pages automatically serves 
 
 ## Deployment
 
-1. Push reviewed changes to `main`.
-2. Confirm the **Check website** workflow passes.
-3. Open **Actions → Deploy website → Run workflow** and select `main`.
-4. Verify the live homepage, privacy page, office interactions, and a missing URL.
+Publishing requires a push from your computer and a manual deployment in GitHub. Pushing alone does not update the live website.
 
-Deployment is manual. The deploy workflow runs checks, builds the site, and publishes `dist/`. Pull requests and pushes to `main` run checks without publishing.
+1. In your terminal, open your local checkout of this repository. Switch to `main` and run the checks:
 
-To roll back a release, revert the relevant source changes on `main` and run the deployment workflow again.
+   ```sh
+   git switch main
+   npm run check
+   git status
+   ```
+
+2. In the same terminal, commit the changes you intend to publish and push them. If they are already committed, run only the push command:
+
+   ```sh
+   git add -A
+   git commit -m "Describe your changes"
+   git push origin main
+   ```
+
+   Review the `git status` output before staging: `git add -A` includes all changed and untracked files that are not ignored.
+
+3. In your browser, open the repository’s [Check website workflow](https://github.com/Very-Good-Apps-LLC/verygoodapps.co/actions/workflows/check.yml). Open the run for the commit you just pushed to `main`. Wait for it to finish with a green check. If it fails, open the failed job to read the error and fix it before continuing.
+
+4. In GitHub, open the [Deploy website workflow](https://github.com/Very-Good-Apps-LLC/verygoodapps.co/actions/workflows/deploy.yml). Above the list of runs, click **Run workflow**, select **main** in the branch dropdown, then click the green **Run workflow** button. This starts the production deployment.
+
+5. On that workflow page, open the new run. Wait for both the **build** and **deploy** jobs to finish successfully. The workflow builds and publishes the site; you do not upload `dist/` yourself.
+
+6. In your browser, check the published site:
+   - [Homepage](https://verygoodapps.co/): test the lamps, duck, and drawing interaction.
+   - [Privacy page](https://verygoodapps.co/privacy/).
+   - [Missing page](https://verygoodapps.co/page-that-does-not-exist): confirm the custom 404 appears.
+
+To roll back a change, run `git revert <commit>` in your local checkout, replacing `<commit>` with its commit ID. Then repeat the checks, push, and manual deployment above.
