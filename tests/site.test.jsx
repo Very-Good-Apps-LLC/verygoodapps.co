@@ -19,7 +19,7 @@ test('homepage retains approved identity and real links without gallery controls
   expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
     'A curious, little, software company.',
   );
-  expect(screen.getByRole('main')).toHaveTextContent('Billy Collins and Rafał Truszkowski');
+  expect(screen.getByRole('main')).toHaveTextContent('Billy and Rafał');
   expect(screen.getByRole('main')).not.toHaveTextContent(/client work|Ruby/);
   expect(screen.getByRole('link', { name: 'Privacy', exact: true })).toHaveAttribute(
     'href',
