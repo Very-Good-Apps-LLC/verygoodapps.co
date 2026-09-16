@@ -16,10 +16,7 @@ export default function Privacy() {
       </p>
       <section>
         <h2>Visiting this website</h2>
-        <p>
-          This website does not include advertising or{' '}
-          <KeepTogether>analytics tracking.</KeepTogether>
-        </p>
+        <p>This website does not display advertising.</p>
         <p>
           The interactive office runs in your browser. We don’t receive your drawings or record your
           interactions <KeepTogether>with it.</KeepTogether>
@@ -31,6 +28,33 @@ export default function Privacy() {
             GitHub Privacy Statement
           </a>
           .
+        </p>
+      </section>
+      <section>
+        <h2>Optional analytics</h2>
+        <p>
+          If you accept analytics, we use Google Analytics to understand how many people visit,
+          which pages they view, and which sites bring them here. Google processes information such
+          as page visits, time spent on the site, browser and device details, approximate location,
+          and cookie identifiers.
+        </p>
+        <p>
+          Google Analytics loads only after you accept. Declining does not affect the site. We do
+          not use this data for personalized advertising or send your drawings, office interactions,
+          name, or email address to Google Analytics.
+        </p>
+        <p>
+          We remember your choice in this browser for up to 180 days. Analytics cookies also expire
+          after up to 180 days. You can change your choice using the Analytics settings button at
+          the bottom of any page. Declining stops further analytics collection and removes this
+          site’s analytics cookies; it does not delete data already received by Google.
+        </p>
+        <p>
+          Learn more about{' '}
+          <a href="https://policies.google.com/technologies/partner-sites">
+            how Google uses information from sites that use its services
+          </a>{' '}
+          and read <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.
         </p>
       </section>
       <section>

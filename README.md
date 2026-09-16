@@ -51,6 +51,12 @@ Run `npm run check` before submitting changes. It includes `scripts/check-build.
 
 Preview the custom error page at `/404.html`. GitHub Pages automatically serves it for missing URLs; the local Vite server does not provide that fallback.
 
+## Analytics
+
+[Google Analytics 4](https://analytics.google.com/analytics/web/#/a312455974p554515218/reports/intelligenthome) is configured in `src/analytics.js` with public measurement ID `G-1WYH706CWZ`. It loads only on the production domain after a visitor accepts. The footer’s Analytics settings control lets visitors change their choice. Local and preview traffic is excluded.
+
+The property uses basic traffic measurement with enhanced measurement disabled. Advertising consent and personalization are disabled in the tag. Keep the privacy notice in `src/pages/Privacy.jsx` aligned with any collection changes.
+
 ## Deployment
 
 Publishing requires a push from your computer and a manual deployment in GitHub. Pushing alone does not update the live website.
