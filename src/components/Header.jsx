@@ -10,7 +10,7 @@ export default function Header({ privacy }) {
         <h3 className="brand-name">{companyAbbrev}</h3>
       </a>
       <span className="header-tag">{privacy ? 'Company privacy' : ''}</span>
-      <Email alt="Contact link" aria-label="Contact Very Good Apps LLC" role="link" name="Contact">
+      <Email alt="Contact link" aria-label="Contact">
         <PaperAirplaneIcon
           className="header-send-icon"
           alt="Contact link"
