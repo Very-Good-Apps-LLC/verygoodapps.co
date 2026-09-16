@@ -1,4 +1,4 @@
-import { contactEmail, members } from '../site';
+import { contactEmail, members, memberFirstNames } from '../site';
 
 export function KeepTogether({ children }) {
   return <span className="keep-together">{children}</span>;
@@ -6,6 +6,15 @@ export function KeepTogether({ children }) {
 
 export function MemberNames() {
   return members.map((name, index) => (
+    <span key={name}>
+      {index > 0 && ' and '}
+      <KeepTogether>{name}</KeepTogether>
+    </span>
+  ));
+}
+
+export function MemberFirstNames() {
+  return memberFirstNames.map((name, index) => (
     <span key={name}>
       {index > 0 && ' and '}
       <KeepTogether>{name}</KeepTogether>
