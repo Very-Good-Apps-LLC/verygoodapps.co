@@ -1,20 +1,21 @@
 import InteractiveOffice from '../components/office/InteractiveOffice';
-import { Email, KeepTogether, MemberNames } from '../components/Text';
+import { Email, KeepTogether, MemberFirstNames } from '../components/Text';
+import { companyShortName } from '../site';
 import '../styles/office.css';
 
 export default function Home() {
   return (
     <main id="main" className="home" tabIndex={-1}>
       <div className="office-intro">
-        <p className="kicker">
+        {/* <p className="kicker">
           <KeepTogether>Very Good Apps LLC</KeepTogether> · Illinois
-        </p>
+        </p> */}
         <h1>
           A <em>curious</em>, little, <KeepTogether>software company.</KeepTogether>
         </h1>
         <p>
           Apps, <KeepTogether>everyday tools</KeepTogether>, and ideas{' '}
-          <KeepTogether>worth trying.</KeepTogether> This is our little corner of{' '}
+          <KeepTogether>worth trying.</KeepTogether> Welcome to our little corner of{' '}
           <KeepTogether>the internet.</KeepTogether>
         </p>
       </div>
@@ -23,8 +24,9 @@ export default function Home() {
         <section className="office-about" aria-labelledby="about-title">
           <h2 id="about-title">A quick introduction.</h2>
           <p>
-            We’re <MemberNames />. Together, we run <KeepTogether>Very Good Apps LLC,</KeepTogether>{' '}
-            a small software company based <KeepTogether>in Illinois.</KeepTogether>
+            We’re <MemberFirstNames />. Together, we run{' '}
+            <KeepTogether>{companyShortName},</KeepTogether> a small software company based{' '}
+            <KeepTogether>in Illinois.</KeepTogether>
           </p>
           <p>
             We build our own software products and try out <KeepTogether>new ideas.</KeepTogether>{' '}

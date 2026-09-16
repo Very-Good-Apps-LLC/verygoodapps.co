@@ -131,6 +131,7 @@ p {
   display: inline-flex;
   flex: none;
   text-decoration: none;
+  border-bottom: 5px solid var(--accent);
 }
 .brand img {
   width: 132px;
@@ -147,13 +148,19 @@ p {
 .site-header > a:last-child {
   font-size: 14px;
 }
+.header-send-icon {
+  transition: transform 0.2s ease;
+}
+.site-header > a:last-child:hover .header-send-icon {
+  transform: rotate(-25deg);
+}
 .site-header > a:last-child,
 .site-footer > a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 44px;
-  min-height: 44px;
+  min-width: 24px;
+  min-height: 24px;
 }
 .site-footer {
   display: flex;
@@ -165,6 +172,21 @@ p {
   border-top: 1px solid var(--line);
   font: 12px/1.5 var(--office-sans);
 }
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+}
+
 .kicker {
   font: 600 12px/1.5 var(--office-sans);
   text-transform: uppercase;

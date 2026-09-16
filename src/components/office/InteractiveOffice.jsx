@@ -77,12 +77,12 @@ export default function InteractiveOffice() {
         <figcaption>
           <div>
             <span>
-              <KeepTogether>FIG. 01</KeepTogether> · THE OFFICE,{' '}
-              <KeepTogether>IN SPIRIT.</KeepTogether>
+              <KeepTogether>FIG. 01</KeepTogether> · OUR IMAGINED THE OFFICE,{' '}
+              <KeepTogether>IN MINIATURE.</KeepTogether>
             </span>
-            <p>
+            {/* <p>
               An imagined office, <KeepTogether>in miniature.</KeepTogether>
-            </p>
+            </p> */}
           </div>
         </figcaption>
       </figure>
